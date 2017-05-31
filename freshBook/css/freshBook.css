@@ -1,0 +1,138 @@
+header{
+    height: 1.437rem;
+    background-color: #f9fafd;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.031rem solid #e0e0e0;
+}
+header a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .center{
+    font-size: 0.468rem;
+    font-weight: 700;
+}
+
+
+.wrapper{
+    top: 1.437rem;
+}
+.wrapper .menu{
+	height: 2.125rem;
+	margin-top: 0.156rem;
+	border: 0.015rem solid #a2a2a2;
+	border-left: none;
+	border-right: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wrapper .menu ul{
+	height: 1.046rem;
+	background-color: #fff;
+	font-size: 0.343rem;
+	color: #898989;
+	display: flex;
+	justify-content: space-around;
+}
+.wrapper .menu ul li{
+	width: 1.656rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper .menu ul li.active{
+	color: #595656;
+	font-weight: 700;
+	border-bottom: 0.031rem solid #595656;
+}
+
+
+.wrapper .bookDetails{
+	border: 0.015rem solid #a2a2a2;
+	border-left: none;
+	border-right: none;
+	background-color: #fff;
+	margin-top: 0.25rem;
+}
+.wrapper .bookDetails .head{
+	height: 0.921rem;
+	font-size: 0.375rem;
+	display: flex;
+	align-items: center;
+}
+.wrapper .bookDetails .head p{
+	margin-left: 0.265rem;
+	border-left: 0.156rem solid #2aaef8;
+	padding-left: 0.281rem;
+	color: #7b7b7b;
+}
+
+.wrapper .bookDetails .bookList li{
+	height: 3.5rem;
+	border-top: 0.031rem solid #cccccc;
+	padding: 0 0.625rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper .bookDetails .bookList li .left{
+	width: 3.187rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.wrapper .bookDetails .bookList li .left img{
+	width: 100%;
+}
+.wrapper .bookDetails .bookList li .right{
+	width: 4.687rem;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper .bookDetails .bookList li .right p{
+	height: 1.875rem;
+	font-size: 0.375rem;
+	display: flex;
+	align-items: center;
+	line-height: 0.625rem;
+	color: #777777;
+}
+.wrapper .bookDetails .bookList li .right div{
+	flex-grow: 1;
+	display: flex;
+	align-items: baseline;
+	position: relative;
+}
+.wrapper .bookDetails .bookList li .right div .price{
+	font-size: 0.562rem;
+	color: #f1361d;
+	font-weight: 700;
+	margin-top: 0.312rem;
+}
+.wrapper .bookDetails .bookList li .right div .price i{
+	font-size: 0.343rem;
+	font-style: normal;
+}
+.wrapper .bookDetails .bookList li .right div .priced{
+	font-size: 0.343rem;
+	color: #999;
+	margin-top: 0.312rem;
+}
+.wrapper .bookDetails .bookList li .right div .addCar{
+	width: 1.062rem;
+	height: 1.062rem;
+	border-radius: 50%;
+	background-color: #f1361d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.wrapper .bookDetails .bookList li .right div .addCar img{
+	width: 70%;
+}

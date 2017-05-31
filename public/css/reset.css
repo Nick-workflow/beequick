@@ -1,0 +1,37 @@
+/* 重置样式 */
+
+body , ul , figure , li , ol , p , h1 , h2 , h3 , h4 , h5 , h6 , dl , dd , dt {
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+ul , li , ol {
+	list-style: none;
+}
+
+body , html {
+	height: 100%;
+	font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;
+	color: #333;
+	background: #efefef;
+}
+
+img{
+	display: block;
+	transform: scale(1,1);
+}
+
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	zoom: 1;
+	visibility: hidden;
+}
